@@ -1,8 +1,7 @@
 import React from "react";
 import "./about.css";
 // import AboutImg from "../../assets/PhotoPic.jpg";
-import Hawaii from "../../assets/JohnHawaii.jpeg"
-
+import Hawaii from "../../assets/JohnHawaii.jpeg";
 
 const About = () => {
   return (
@@ -14,11 +13,29 @@ const About = () => {
         <img src={Hawaii} alt="HawaiiPhoto" className="about__img" />
         <div className="about__data">
           <p className="about__description">
-          Howdy! I am a Full-Stack Software Engineer based out of Houston, TX. 
+            Hello World! I’m a Full-Stack Software Engineer based out of
+            Houston, TX. 
             {<br></br>}
             {<br></br>}
-            Building state-of-the-art, easy to use, responsive, user-friendly websites and applications is truly a passion of mine! I actively seek out new technologies and stay up-to-date on industry trends and advancements allowing me to stay ahead of the curve.
+            Building state-of-the-art, responsive, user-friendly
+            websites and applications with UI/UX principles in mind is truly a
+            passion of mine! In addition to my knowledge base, I actively seek
+            out new technologies and stay up-to-date on industry trends and
+            advancements. This has allowed me to stay ahead of the curve and
+            deliver exceptional projects and applications. 
             {<br></br>}
+            {<br></br>}
+            Whenever I’m not
+            coding, I’m usually learning how to cook a new recipe, binge
+            watching an Anime, or hanging out with my dogs Liam and Lucy!
+            {/* Howdy! I am a Full-Stack Software Engineer based out of Houston, TX.
+            {<br></br>}
+            {<br></br>}
+            Building state-of-the-art, easy to use, responsive, user-friendly
+            websites and applications is truly a passion of mine! I actively
+            seek out new technologies and stay up-to-date on industry trends and
+            advancements allowing me to stay ahead of the curve.
+            {<br></br>} */}
           </p>
 
           <a
