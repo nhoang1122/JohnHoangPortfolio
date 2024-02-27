@@ -11,7 +11,7 @@ const About = () => {
       <span className="section__subtitle">Get To Know Me</span>
 
       <div className="about__container container grid">
-        <img src={Hawaii} alt="" className="about__img" />
+        <img src={Hawaii} alt="HawaiiPhoto" className="about__img" />
         <div className="about__data">
           <Info />
 
