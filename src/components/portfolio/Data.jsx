@@ -3,6 +3,7 @@ import Marketable from "../../assets/Marketable.png";
 import CertifiedCinema from "../../assets/CertifiedCinemaSS.png";
 import Tetris from "../../assets/Tetris.png";
 import SnakeGame11 from "../../assets/11.png"
+import SpaceInvader from "../../assets/SpaceHome.png"
 
 export const projectsData = [
   {
@@ -39,6 +40,13 @@ export const projectsData = [
     title: "Snake Game",
     category: "Python",
     hosted:"https://github.com/nhoang1122/SnakeGame",
+  },
+  {
+    id: 6,
+    image: SpaceInvader,
+    title: "Space Invader",
+    category: "Python",
+    hosted:"https://github.com/nhoang1122/SpaceInvader",
   },
 ];
 
