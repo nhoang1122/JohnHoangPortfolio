@@ -2,7 +2,7 @@ import MelodicMusic from "../../assets/MelodicMusic.png";
 import Marketable from "../../assets/Marketable.png";
 import CertifiedCinema from "../../assets/CertifiedCinemaSS.png";
 import Tetris from "../../assets/Tetris.png";
-import SnakeGame11 from "../../assets/SnakeGame11.png"
+import SnakeGame11 from "../../assets/11.png"
 
 export const projectsData = [
   {
