@@ -2,6 +2,7 @@ import MelodicMusic from "../../assets/MelodicMusic.png";
 import Marketable from "../../assets/Marketable.png";
 import CertifiedCinema from "../../assets/CertifiedCinemaSS.png";
 import Tetris from "../../assets/Tetris.png";
+import SnakeGame11 from "../../assets/SnakeGame11.png"
 
 export const projectsData = [
   {
@@ -31,6 +32,13 @@ export const projectsData = [
     title: "Tetris",
     category: "React",
     hosted:"https://tetris-weld-pi.vercel.app/",
+  },
+  {
+    id: 5,
+    image: SnakeGame11,
+    title: "Snake Game",
+    category: "Python",
+    hosted:"https://github.com/nhoang1122/SnakeGame",
   },
 ];
 
