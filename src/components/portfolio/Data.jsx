@@ -4,35 +4,36 @@ import CertifiedCinema from "../../assets/CertifiedCinemaSS.png";
 import Tetris from "../../assets/Tetris.png";
 import SnakeGame11 from "../../assets/11.png"
 import SpaceInvader from "../../assets/SpaceHome.png"
+import HonestHome from "../../assets/HonestHome.png"
 
 export const projectsData = [
   {
     id: 1,
+    image: HonestHome,
+    title: "Honest Homes",
+    category: "React",
+    hosted:"https://honesthomes.vercel.app/",
+  },
+  {
+    id: 2,
     image: MelodicMusic,
     title: "Melodic Music",
     category: "React",
     hosted:"https://melodicmusic.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: Marketable,
     title: "Marketable Dashboard",
-    category: "Python",
+    category: "React",
     hosted:"https://dash-board-marketable.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: CertifiedCinema,
     title: "Certified Cinema",
     category: "React",
     hosted:"https://certified-cinema.vercel.app/",
-  },
-  {
-    id: 4,
-    image: Tetris,
-    title: "Tetris",
-    category: "React",
-    hosted:"https://tetris-weld-pi.vercel.app/",
   },
   {
     id: 5,
